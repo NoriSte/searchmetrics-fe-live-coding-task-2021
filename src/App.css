@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 16vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.TopKeywordsPage {
+  max-width: 1200px;
+}
+
+.TopKeywordsPage-header {
+  padding: 10px;
+  background-color: bisque;
+}
+
+.TopKeywordsPage-header-detail {
+  padding: 10px 20px;
+  background-color: blueviolet;
+}
+
+.TopKeywordsPage-items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.FilterBar-Filter-active {
+  background-color:lightsteelblue;
+}
+
+.KeywordDisplay-container {
+  background-color: palegreen;
+  border-radius: 10px;
+  padding: 30px;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.KeywordDisplay-right {
+  
+}
